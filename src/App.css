@@ -9,3 +9,21 @@ body {
     background-color: #eff3f7;
     height: 100%;
 }
+
+.loader {
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.loader .loader__text {
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.loader .blank{
+    display:inline-block;
+    width:0;height:100%;
+    vertical-align:middle
+}
